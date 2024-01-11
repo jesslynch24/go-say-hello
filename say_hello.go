@@ -1,7 +1,18 @@
 package gosayhello
 
-func SayHello() string {
-	return "hello world"
+// v1.0.0
+// func SayHello() string {
+// 	return "hello "
+// }
+
+// v1.0.1
+// func SayHello() string {
+// 	return "hello world"
+// }
+
+// v2.0.0
+func SayHello(name string) string {
+	return "hello " + name
 }
 
 //create git
@@ -17,3 +28,7 @@ func SayHello() string {
 //create git
 //go mod init github.com/jesslynch24/app-say-hello
 //go get github.com/jesslynch24/go-say-hello
+
+//major up
+//misal untuk say hello ditambah param
+//maka pada go.mod diganti nama modulenya misal ditambah/v2
